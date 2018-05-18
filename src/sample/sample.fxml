@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="point" fitHeight="75.0" fitWidth="71.0" layoutX="29.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pointer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="grab" fitHeight="75.0" fitWidth="71.0" layoutX="192.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@grab.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fist" fitHeight="75.0" fitWidth="71.0" layoutX="85.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fist.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flat" fitHeight="75.0" fitWidth="71.0" layoutX="242.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@flat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="two" fitHeight="75.0" fitWidth="71.0" layoutX="136.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@two.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="conList" layoutX="72.0" layoutY="73.0" prefHeight="105.0" prefWidth="200.0" />
+      <Label layoutX="135.0" layoutY="39.0" text="Connected:" />
+   </children>
+</AnchorPane>
